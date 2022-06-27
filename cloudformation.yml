@@ -1,5 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: Serverless deployment pipeline for Terraform projects
+# The github parameters ar present for manual setup to create a connection to aws
 Parameters:
   GithubOauthToken:
     Type: String
